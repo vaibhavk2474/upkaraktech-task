@@ -1,6 +1,3 @@
-.app {
-}
-
 /* header */
 .heading {
   color: #fff;
@@ -9,7 +6,7 @@
   margin: 2rem 0;
 }
 
-/* chess */
+/* chess board */
 .main-container {
   border: 5px solid #fff;
 
@@ -33,18 +30,6 @@
 }
 .bg-white {
   background-color: #fff;
-}
-
-/* utility css */
-
-.flex {
-  display: flex;
-}
-.align-item-center {
-  align-items: center;
-}
-.justify-content-center {
-  justify-content: center;
 }
 
 /* .....................................*/
@@ -81,4 +66,16 @@ input:focus-visible {
   text-align: center;
   font-size: 2rem;
   color: #ff0000;
+}
+
+/* utility css */
+
+.flex {
+  display: flex;
+}
+.align-item-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
 }

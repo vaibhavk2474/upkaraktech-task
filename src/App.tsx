@@ -1,9 +1,9 @@
 import { useState } from "react";
-import ChessBoard from "./components/ChessBoard";
-import "./App.css";
-import SizeOfChess from "./components/SizeOfChess";
-import NoChessBoard from "./components/NoChessBoard";
 import Header from "./components/Header";
+import SizeOfChess from "./components/SizeOfChess";
+import ChessBoard from "./components/ChessBoard";
+import NoChessBoard from "./components/NoChessBoard";
+import "./App.css";
 
 function App() {
   const [sizeOfChess, setSizeOfChess] = useState<number>(5);
@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-
       <div className="main-container">
         <SizeOfChess
           sizeOfChess={sizeOfChess}
