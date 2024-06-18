@@ -16,7 +16,6 @@
 }
 
 .chess-box-container {
-  /* overflow: auto; */
   display: flex;
   justify-content: center;
 }
