@@ -39,4 +39,18 @@ or
 yarn dev
 ```
 
-4. now you can run http://localhost:5173 to check Website
+4. After running the above command, you should see output similar to this:
+
+```sh
+> your-project@0.0.0 dev
+> vite
+
+  VITE v5.3.1  ready in 1037 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+```
+
+5. Open your web browser and navigate to the following URL to view the application:
+   http://localhost:5173/

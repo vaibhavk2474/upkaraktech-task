@@ -14,6 +14,8 @@ const SizeOfChess: React.FC<{
         value={value}
         onChange={(e) => {
           const typedValue = e.target.value;
+
+          // check user typed value is Not-a-Number or not,only takes numbers
           if (!isNaN(Number(typedValue))) {
             setValue(typedValue);
           }
@@ -22,6 +24,10 @@ const SizeOfChess: React.FC<{
           if (e.key == "Enter") {
             setSizeOfChess(Number(value));
           }
+
+          // check given or entered key is backspace or a number between to 0 and 9
+          // if it is then continue other than prevent this
+
           // if (e.key == "Backspace") {
           //   // "continue;"
           // } else if (!(Number(e.key) >= 0 && Number(e.key) <= 9)) {

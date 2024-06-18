@@ -11,11 +11,13 @@ function App() {
   return (
     <div className="app">
       <Header />
+
       <div className="main-container">
         <SizeOfChess
           sizeOfChess={sizeOfChess}
           setSizeOfChess={setSizeOfChess}
         />
+
         <ChessBoard sizeOfChess={sizeOfChess} />
 
         {sizeOfChess == 0 && <NoChessBoard />}
