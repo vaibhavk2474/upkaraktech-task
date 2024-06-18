@@ -1,7 +1,7 @@
 function ChessBoard({ sizeOfChess }: { sizeOfChess: number }) {
   return (
     <>
-      <div className="main-container">
+      <div className="chess-box-container">
         {
           // Array(sizeOfChess)
           //   .fill(1)

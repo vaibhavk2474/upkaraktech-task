@@ -1,11 +1,23 @@
 .app {
+}
+
+/* header */
+.heading {
+  color: #fff;
+  /* font-size: 3rem; */
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* chess */
+.main-container {
   border: 5px solid #fff;
 
-  margin: 5rem;
+  margin: 2rem 5rem 5rem 5rem;
   padding: 5rem;
 }
 
-.main-container {
+.chess-box-container {
   overflow: auto;
 }
 .chess-box {
