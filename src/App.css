@@ -1,0 +1,72 @@
+.app {
+  border: 5px solid #fff;
+
+  margin: 5rem;
+  padding: 5rem;
+}
+
+.main-container {
+  overflow: auto;
+}
+.chess-box {
+  height: 10rem;
+  width: 10rem;
+
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.bg-black {
+  background-color: #000;
+}
+.bg-white {
+  background-color: #fff;
+}
+
+/* utility css */
+
+.flex {
+  display: flex;
+}
+.align-item-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+/* .....................................*/
+/* input box*/
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+
+  margin: 0 0 4rem 0;
+}
+.input-container .input {
+  width: 30rem;
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+}
+.input-container .btn {
+  width: 5rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+input:focus,
+input:focus-visible {
+  outline: none;
+}
+
+/* ...................................... */
+/* no chess board */
+.no-chess-board {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff0000;
+}
