@@ -6,7 +6,7 @@ import NoChessBoard from "./components/NoChessBoard";
 import "./App.css";
 
 function App() {
-  const [sizeOfChess, setSizeOfChess] = useState<number>(5);
+  const [sizeOfChess, setSizeOfChess] = useState<number>(8);
 
   return (
     <div className="app">
